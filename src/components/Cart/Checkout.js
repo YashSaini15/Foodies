@@ -63,6 +63,11 @@ const Checkout = (props) => {
       city: enteredCity,
       postalCode: enteredPostalCode,
     });
+
+    resetEnteredName();
+    resetEnteredStreet();
+    resetEnteredCity();
+    resetEnteredPostalCode();
   };
 
   const nameControlClasses = `${classes.control} ${
